@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0c1218;
+  --color-surface: #141c18;
+  --color-fg: #f3efe4;
+  --color-muted: #a3aa9e;
+  --color-primary: #e8a04a;
+  --color-clay: #c44932;
+  --color-line: #2a342c;
+  --font-display: "Oswald", "Arial Narrow", Impact, sans-serif;
+  --font-sans: "Figtree", "Segoe UI", sans-serif;
+  --radius: 0.8rem;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  input[type="range"] {
+    accent-color: var(--color-primary);
+  }
+}
+
+.speed-readout {
+  bottom: 1.75rem;
+}
+
+.touch-dock {
+  display: none;
+}
+
+@media (max-width: 900px), (pointer: coarse) {
+  .touch-dock {
+    display: flex;
+  }
+
+  .speed-readout {
+    bottom: 6.75rem;
+  }
+}
+
+.boost-wash {
+  background: radial-gradient(circle at center, transparent 35%, var(--color-primary) 150%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

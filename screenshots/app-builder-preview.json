@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Vértice",
+      "hasCanvas": true,
+      "bodyTextLen": 260,
+      "bodyTextHash": "23297ea6de4e7a246df8c62ae25e148fb2344720d3b95d0336dbed5b04430dcb",
+      "bodyTextPrefix": "CIRCUITO DA SERRA Vértice Três voltas, três rivais, de noite. Se",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Vértice",
+      "hasCanvas": true,
+      "bodyTextLen": 260,
+      "bodyTextHash": "23297ea6de4e7a246df8c62ae25e148fb2344720d3b95d0336dbed5b04430dcb",
+      "bodyTextPrefix": "CIRCUITO DA SERRA Vértice Três voltas, três rivais, de noite. Se",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
